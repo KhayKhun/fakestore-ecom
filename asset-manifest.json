@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fakestore-ecom/static/css/main.b0b8fc58.css",
-    "main.js": "/fakestore-ecom/static/js/main.c5d6a436.js",
+    "main.css": "/fakestore-ecom/static/css/main.9fdc94c4.css",
+    "main.js": "/fakestore-ecom/static/js/main.9cd336c5.js",
     "static/media/10-percent.png": "/fakestore-ecom/static/media/10-percent.a17573863e97f31a52a9.png",
     "static/media/hot.png": "/fakestore-ecom/static/media/hot.10f8f443a217ea7b5ee6.png",
     "static/media/settings.png": "/fakestore-ecom/static/media/settings.fae406be5afc46e5917b.png",
@@ -11,11 +11,11 @@
     "static/media/star.png": "/fakestore-ecom/static/media/star.d0cbd94e0a4a62fc2bf4.png",
     "static/media/shopping-cart-add.png": "/fakestore-ecom/static/media/shopping-cart-add.d45b8db8b3b4ff8eaf55.png",
     "index.html": "/fakestore-ecom/index.html",
-    "main.b0b8fc58.css.map": "/fakestore-ecom/static/css/main.b0b8fc58.css.map",
-    "main.c5d6a436.js.map": "/fakestore-ecom/static/js/main.c5d6a436.js.map"
+    "main.9fdc94c4.css.map": "/fakestore-ecom/static/css/main.9fdc94c4.css.map",
+    "main.9cd336c5.js.map": "/fakestore-ecom/static/js/main.9cd336c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b8fc58.css",
-    "static/js/main.c5d6a436.js"
+    "static/css/main.9fdc94c4.css",
+    "static/js/main.9cd336c5.js"
   ]
 }
