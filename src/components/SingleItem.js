@@ -4,18 +4,16 @@ import Hot from '../img/hot.png'
 import Star from '../img/star.png'
 import Discount from '../img/10-percent.png'
 import { useDispatch } from 'react-redux';
-import {Link} from 'react-router-dom'
 import { toggleSelect } from '../redux/products';
-import { trueMenu } from '../redux/menuactive';
+import { resetCount } from '../redux/products';
 
 function SingleItem(prop) {
 
   const product = prop.productInfo
 
   const dispatch = useDispatch()
-  const activeCart = ()=>{
+  const select = ()=>{
     dispatch(toggleSelect(product.productInfo.id-1))
-    dispatch(trueMenu())
   }
   return (
     <div id={`${product.productInfo.category.replace(/\s/g, '').replace(/'/g, "")} ha`}
@@ -33,13 +31,13 @@ function SingleItem(prop) {
           </span>
           <hr className='my-[10px]'/>
           <div className='flex justify-center px-[10px] mb-[10px]'>
-            {product.isSelected ? <Link to="cart" id={`AddedText${product.productInfo.id}`} className='hover:shadow-xl hover:shadow-amber-400 shadow-xl shadow-amber-200 hover:-translate-y-[4px] hover:cursor-pointer bg-red-500 text-white rounded-sm font-semibold text-xl flex justify-center items-center px-[10px] py-[10px]  w-[80%]'
-            onClick={activeCart}
-            >Added</Link>
+            {product.isSelected ? <div to="cart" id={`AddedText${product.productInfo.id}`} className='hover:shadow-xl hover:shadow-amber-400 shadow-xl shadow-amber-200 hover:-translate-y-[4px] hover:cursor-pointer bg-red-500 text-white rounded-sm font-semibold text-xl flex justify-center items-center px-[10px] py-[10px]  w-[80%]'
+            onClick={select}
+            >Added</div>
             :
-            <Link to="cart" className='hover:shadow-xl hover:-translate-y-[4px] hover:cursor-pointer bg-blue-500 text-white rounded-sm font-semibold text-xl flex justify-center items-center px-[10px] py-[10px]  w-[80%]'
-            onClick={activeCart}
-            >Add to Cart</Link>
+            <div to="cart" className='hover:shadow-xl hover:-translate-y-[4px] hover:cursor-pointer bg-blue-500 text-white rounded-sm font-semibold text-xl flex justify-center items-center px-[10px] py-[10px]  w-[80%]'
+            onClick={select}
+            >Add to Cart</div>
             }
           </div>
       </div>

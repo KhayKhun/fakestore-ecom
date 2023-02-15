@@ -4,6 +4,7 @@ import Plus from '../img/plus.png'
 import Minus from '../img/minus.png'
 import { useDispatch,useSelector } from 'react-redux';
 import { toggleSelect,addCount,reduceCount,resetCount } from '../redux/products';
+
 function Cart() {
   const [totalPrice,setTotalPrice] = useState(0);
 
@@ -61,6 +62,7 @@ function Cart() {
           </div>
         </li>)}
         <hr/>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white rounded-md py-[10px]'>Buy</button>
       </ul>
     </div>
   )
