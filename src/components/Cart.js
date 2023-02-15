@@ -62,7 +62,7 @@ function Cart() {
           </div>
         </li>)}
         <hr/>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white rounded-md py-[10px]'>Buy</button>
+        {selectedProducts.length > 0?<button className='bg-blue-500 hover:bg-blue-700 text-white rounded-md py-[10px]'>Buy</button>:<></>}
       </ul>
     </div>
   )
