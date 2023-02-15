@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fakestore-ecom/static/css/main.96b272a3.css",
+    "main.js": "/fakestore-ecom/static/js/main.69b03cb8.js",
+    "static/media/10-percent.png": "/fakestore-ecom/static/media/10-percent.a17573863e97f31a52a9.png",
+    "static/media/hot.png": "/fakestore-ecom/static/media/hot.10f8f443a217ea7b5ee6.png",
+    "static/media/settings.png": "/fakestore-ecom/static/media/settings.fae406be5afc46e5917b.png",
+    "static/media/clock.png": "/fakestore-ecom/static/media/clock.7d59a0d26e46a7b1c6ae.png",
+    "static/media/exclamation.png": "/fakestore-ecom/static/media/exclamation.58cc045d114da44be4a3.png",
+    "static/media/trolley-cart.png": "/fakestore-ecom/static/media/trolley-cart.7a0246a1e586948f1f4d.png",
+    "static/media/star.png": "/fakestore-ecom/static/media/star.d0cbd94e0a4a62fc2bf4.png",
+    "static/media/shopping-cart-add.png": "/fakestore-ecom/static/media/shopping-cart-add.d45b8db8b3b4ff8eaf55.png",
+    "index.html": "/fakestore-ecom/index.html",
+    "main.96b272a3.css.map": "/fakestore-ecom/static/css/main.96b272a3.css.map",
+    "main.69b03cb8.js.map": "/fakestore-ecom/static/js/main.69b03cb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96b272a3.css",
+    "static/js/main.69b03cb8.js"
+  ]
+}
