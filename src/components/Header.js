@@ -74,7 +74,7 @@ function Header() {
             }}
             />
           
-          <li className='hover:cursor-pointer hover:scale-[1.05] text-[12px]'
+          <li className='hover:cursor-pointer hover:scale-[1.05] text-[12px] md:text-[16px]'
             onClick={()=>{dispatch(togglePrice())
               }}
           >Price{priceHigh ? <img alt='bruhReact' src={Arrow} width="10px" className="ml-[4px]"/> : <img alt='bruhReact' src={Arrow} width="10px" className="ml-[4px] rotate-[180deg]"/>}</li>
